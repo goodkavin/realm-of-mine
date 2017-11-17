@@ -321,9 +321,9 @@ function newConnection(socket) {
 			if(data == "easy") {
 				mode = randomBombAndTrap(3, 3, 3, 2);
 			} else if(data == "medium") {
-				mode = randomBombAndTrap(5, 5, 8, 5);
+				mode = randomBombAndTrap(5, 5, 8, 4);
 			} else if(data == "hard") {
-				mode = randomBombAndTrap(6, 6, 12, 10);
+				mode = randomBombAndTrap(6, 6, 11, 6);
 			} else {
 				console.log("Test mode!");
 				mode = randomBombAndTrap(2, 2, 1, 1);
